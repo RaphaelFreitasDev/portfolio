@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh-80px);
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo{
+    color: white;
+    font-size: 2rem;
+}
+
+nav{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu{
+    display: flex;
+    list-style: none;
+}
+
+nav .menu li{
+    margin: 1rem;
+}
+
+nav .menu li a {
+    font-size: 1rem;
+}
+
+.ativo{
+    font-weight: bold;
+}
+
+.marcado{
+    background: #00C2FF;
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.content .infos{
+    display: flex ;
+    flex-direction: column; 
+    margin: 150px 0;
+}
+
+.content .infos a{
+    width: 200px;
+    text-align: center;
+    margin: 8px 0 ;
+}
+
+.content .infos h1{
+    font-size: 3rem;
+    color: #579db3;
+}
+
+.content .infos h2{
+    color: white;
+    font-weight:400;
+    font-size: 1.7rem;
+}
+
+footer{
+    height: 80px;
+    background: #000;
+    position: fixed;
+    bottom: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    color: white;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.footer li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.footer li strong{
+    color: #00C2FF;
+}
+.footer li p{
+    color: white;
+    font-weight: 300;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url('images/bg.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    
+} 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.pre-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.logo{
+    color: #023f44;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.telefone{
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 700;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+
+}
+
+nav ul li{
+    background: #2D99A4;
+    flex: 1;
+   
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    padding: 1rem;  
+    font-weight: bold;
+}
+
+.ativo{
+    background:white ;
+    color: #2D99A4;
+}
+
+.reserva{
+    background: #0E727B;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem
+}
+
+.content h1{
+    width: 612px;
+    background-color: #0E727B;
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 8px;
+}
+
+.content h2{
+    width: 217px;
+    background-color:white;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 300;
+    color:#2D99A4;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+
+.content h3{
+    width: 271px;
+    background-color:#2D99A4;
+    display: block;
+    padding: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+    color:white;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
